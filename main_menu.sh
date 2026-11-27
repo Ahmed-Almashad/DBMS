@@ -17,7 +17,7 @@ select opt in "${options[@]}"; do
     case "$opt" in
         "Create Database")
             echo "You chose Create Database"
-            bash "database_op/create.sh"
+            bash "database_op/create_db.sh"
             ;;
         "List Databases")
             echo "You chose List Databases"
@@ -25,7 +25,7 @@ select opt in "${options[@]}"; do
             ;;
         "Connect To Database")
             echo "You chose Connect To Database"
-            bash "database_op/connect.sh"
+            bash "database_op/connect_db.sh"
             ;;
         "Drop Database")
             echo "You chose Drop Database"
