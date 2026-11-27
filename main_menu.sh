@@ -21,7 +21,7 @@ select opt in "${options[@]}"; do
             ;;
         "List Databases")
             echo "You chose List Databases"
-            bash "database_op/list.sh"
+            bash "database_op/list_db.sh"
             ;;
         "Connect To Database")
             echo "You chose Connect To Database"
@@ -29,7 +29,7 @@ select opt in "${options[@]}"; do
             ;;
         "Drop Database")
             echo "You chose Drop Database"
-            bash "database_op/drop.sh"
+            bash "database_op/drop_db.sh"
             ;;
         "Exit")
             echo "Exiting Goodbye!"
