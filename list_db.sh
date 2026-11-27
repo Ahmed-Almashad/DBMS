@@ -10,3 +10,4 @@ function list_databases {
         echo "No databases found."
     fi
 }
+list_databases
